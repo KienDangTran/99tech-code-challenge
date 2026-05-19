@@ -13,7 +13,8 @@
     "problem2:dev": "vite src/problem2",
     "problem2:build": "vite build src/problem2",
     "problem2:test": "vitest --root src/problem2",
-    "problem4:test": "vitest --root src/problem4"
+    "problem4:test": "vitest --root src/problem4",
+    "problem5:test": "vitest --root src/problem5"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.0",
@@ -25,8 +26,10 @@
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@types/supertest": "^7.2.0",
     "@vitejs/plugin-react": "^6.0.2",
     "jsdom": "^29.1.1",
+    "supertest": "^7.2.2",
     "tailwindcss": "^4.3.0",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3",
